@@ -31,15 +31,15 @@
  
  
  var playlist = {
-   'Slowdive': 'Alison',
-   'My Bloody Valentine': 'Sometimes'
+   'Steely Dan': 'Bad Sneakers',
+   'Elvis Costello': 'Less Than Zero'
  }
  
  function updatePlaylist(obj, key, value) {
    console.log(Object.assign({}, obj, { [key]: value}));
  }
  
- updatePlaylist(playlist, 'Phil Ochs', "Here's to the State of Mississippi");
+ updatePlaylist(playlist, 'Jackson Browne', 'Rock Me on the Water');
  
  console.log(playlist);
  
