@@ -23,3 +23,5 @@
  function updateObjectWithObject(targetObject, updatesObject) {
    console.log(Object.assign({}, targetObject, updatesObject));
  }
+ 
+ updateObjectWithObject(targetObject, updatesObject);
