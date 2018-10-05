@@ -36,7 +36,7 @@
  }
  
  function updatePlaylist(obj, key, value) {
-   console.log(obj.key = value);
+   console.log(obj.[key] = value);
  }
  
  updatePlaylist(playlist, 'Jackson Browne', 'Rock Me on the Water');
