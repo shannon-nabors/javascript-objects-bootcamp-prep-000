@@ -31,10 +31,13 @@
  
  
  var playlist = {
-   'Steely Dan': 'Bad Sneakers'
+   'Steely Dan': 'Bad Sneakers',
+   'Elvis Costello': 'Less Than Zero'
  }
  
  function updatePlaylist(obj, key, value) {
    console.log(Object.assign({}, obj, { [key]: value}));
  }
+ 
+ updatePlaylist(playlist, 'Jackson Browne', 'Rock Me On The Water');
  
