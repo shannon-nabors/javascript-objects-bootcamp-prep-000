@@ -1,5 +1,5 @@
  function updateObjectWithKeyAndValue(obj, key, value) {
-   console.log(Object.assign(obj, { [key]: value }));
+   console.log(Object.assign({}, obj, { [key]: value }));
  }
  
  const recipe = { eggs: 3 };
