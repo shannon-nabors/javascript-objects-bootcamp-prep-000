@@ -29,3 +29,8 @@
  //delete targetObject['18th'];
  console.log(targetObject);
  
+ 
+ var playlist = {
+   'Steely Dan': 'Bad Sneakers'
+ }
+ 
