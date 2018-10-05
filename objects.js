@@ -9,7 +9,7 @@
  //console.log(recipe);
  
  var targetObject = {
-   '16th': 'Nicaragua',
+   '16th': 'Newfoundland',
    '17th': 'Cuba',
    '18th': 'Groucho Marx',
    '19th': 'Mindanao'
@@ -25,6 +25,7 @@
  }
  
  //updateObjectWithObject(targetObject, updatesObject);
+ //console.log(targetObject);
+ //delete targetObject['18th'];
  console.log(targetObject);
- delete targetObject['18th'];
- console.log(targetObject);
+ 
