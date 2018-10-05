@@ -24,5 +24,6 @@
    console.log(Object.assign({}, targetObject, updatesObject));
  }
  
- updateObjectWithObject(targetObject, updatesObject);
+ //updateObjectWithObject(targetObject, updatesObject);
  console.log(targetObject);
+ delete targetObject['18th'];
