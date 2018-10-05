@@ -7,3 +7,8 @@
  updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup');
  
  console.log(recipe);
+ 
+ 
+ function updateObjectWithObject(targetObject, updatesObject) {
+   console.log(Object.assign({}, targetObject, updatesObject));
+ }
