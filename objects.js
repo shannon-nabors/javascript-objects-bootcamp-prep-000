@@ -39,7 +39,7 @@
    console.log(Object.assign({}, obj, { [key]: value}));
  }
  
- updatePlaylist(playlist, 'Phil Ochs', 'Rock Me On The Water');
+ updatePlaylist(playlist, 'Phil Ochs', "Here's to the State of Mississippi");
  
  console.log(playlist);
  
