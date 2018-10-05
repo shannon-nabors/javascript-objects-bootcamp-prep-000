@@ -25,3 +25,4 @@
  }
  
  updateObjectWithObject(targetObject, updatesObject);
+ console.log(targetObject);
