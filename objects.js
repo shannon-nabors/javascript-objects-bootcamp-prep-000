@@ -15,6 +15,11 @@
    '19th': 'Mindanao'
  }
  
+ var updatesObject = {
+   '18th': 'Iceland',
+   '20th': 'Ireland'
+ }
+ 
  function updateObjectWithObject(targetObject, updatesObject) {
    console.log(Object.assign({}, targetObject, updatesObject));
  }
