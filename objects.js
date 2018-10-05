@@ -29,5 +29,3 @@
  //delete targetObject['18th'];
  console.log(targetObject);
  
- updateObjectWithKeyAndValue(targetObject, )
- 
