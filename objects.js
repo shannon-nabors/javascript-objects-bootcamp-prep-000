@@ -41,3 +41,5 @@
  
  updatePlaylist(playlist, 'Jackson Browne', 'Rock Me On The Water');
  
+ console.log(playlist);
+ 
