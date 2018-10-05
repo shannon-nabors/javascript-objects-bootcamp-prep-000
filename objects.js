@@ -43,3 +43,12 @@
  
  console.log(playlist);
  
+ function removeFromPlaylist(obj, key) {
+   delete obj[key];
+   return obj;
+ }
+ 
+ removeFromPlaylist(playlist, 'Jackson Browne');
+ 
+ console.log(playlist);
+ 
