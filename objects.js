@@ -34,3 +34,7 @@
    'Steely Dan': 'Bad Sneakers'
  }
  
+ function updatePlaylist(obj, key, value) {
+   console.log(Object.assign({}, obj, { [key]: value}));
+ }
+ 
