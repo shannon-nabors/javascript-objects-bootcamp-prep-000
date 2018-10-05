@@ -27,3 +27,4 @@
  //updateObjectWithObject(targetObject, updatesObject);
  console.log(targetObject);
  delete targetObject['18th'];
+ console.log(targetObject);
