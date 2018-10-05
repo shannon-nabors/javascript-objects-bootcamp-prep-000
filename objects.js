@@ -4,9 +4,9 @@
  
  const recipe = { eggs: 3 };
  
- updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup');
+ //updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup');
  
- console.log(recipe);
+ //console.log(recipe);
  
  var targetObject = {
    '16th': 'Nicaragua',
